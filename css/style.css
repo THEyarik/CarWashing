@@ -62,6 +62,13 @@ body {
     min-height: 104px;
     align-items: center;
 }
+@media (max-width: 850px) {
+    .header__container {
+        display: flex;
+        min-height: 60px;
+        align-items: center;
+    }
+}
 .header__logo-icon{
     height: 40px;
     width: 40px;
@@ -175,7 +182,7 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 46px;
+    top: 24px;
     right: 15px;
     width: 26px;
     height: 26px;
