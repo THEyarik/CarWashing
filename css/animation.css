@@ -1,0 +1,50 @@
+.element-animation {
+
+    opacity: 0;
+    transform: translateY(20px);
+}
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+
+.element-animation.about__img-content{
+    transform: translateX(-40px);
+}
+.about__img-content.element-animation.element-show {
+    transform: translateX(0);
+}
+.about__text-content.element-animation{
+    transform: translateX(40px);
+}
+.about__text-content.element-animation.element-show {
+    transform: translateX(0);
+}
+.form.element-animation{
+    transform: translateY(40px);
+}
+.form.element-animation.element-show {
+    transform: translateY(0);
+}
+.contact__address-list-item.element-animation{
+    transform: translateX(40px);
+}
+.contact__address-list-item.element-animation.element-show{
+    transform: translateX(0);
+}
+.contact__address-list-item.element-animation:nth-of-type(2).element-show{
+    transition-delay: 0.25s;
+}
+.contact__address-list-item.element-animation:nth-of-type(3).element-show{
+    transition-delay: 0.5s;
+}
+.contact__address-list-item.element-animation:nth-of-type(4).element-show{
+    transition-delay: 0.75s;
+}
+.footer.element-animation{
+    transform: translateY(40px);
+}
+.footer.element-animation.element-show {
+    transform: translateY(0);
+}

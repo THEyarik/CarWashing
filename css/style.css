@@ -28,6 +28,7 @@ h6 {
     font-size: inherit;
 }
 html,
+
 body {
     height: 100%;
     line-height: 1;
@@ -263,7 +264,7 @@ body {
         row-gap: 60px;
         align-items: center;
     }
-    .\
+
 }
 @media (max-width: 420px) {
     .hero__content-title{
@@ -388,7 +389,7 @@ margin-left: 80px;
 @media (max-width: 1380px){
     .about__text-content {
         margin-left: 0px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 }
 .about__text-mini-title span{
@@ -429,6 +430,11 @@ margin-left: 80px;
     margin-top: 30px;
     justify-content: space-between;
 }
+@media (max-width: 1380px){
+    .about__text-content-info-title-row{
+        justify-content: space-around;
+    }
+}
     @media (max-width: 690px){
         .about__text-content-info-title-row{
             margin-top: 15px;
@@ -456,6 +462,11 @@ margin-left: 80px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+}
+@media (max-width: 1380px){
+    .about__text-content-info-list{
+        justify-content: space-around;
+    }
 }
 @media (max-width: 450px) {
     .about__text-content-info-list{
@@ -798,6 +809,7 @@ margin-left: 80px;
 }
 .footer__bottom {
     padding: 25px 0;
+    background-color: #fafafa;
 }
 .footer__container {
     display: flex;
