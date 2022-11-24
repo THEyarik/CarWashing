@@ -809,6 +809,11 @@ margin-left: 80px;
 }
 .footer__bottom {
     padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
     background-color: #fafafa;
 }
 .footer__container {
@@ -834,6 +839,7 @@ margin-left: 80px;
     .footer__container {
         flex-direction: column;
     }
+
     .footer__copy {
         margin: 0px 0px 15px 0px;
         text-align: center;
